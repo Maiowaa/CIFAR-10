@@ -1,20 +1,26 @@
-# CIFAR-10 Image Classification using ResNet50
+# 🖼️ CIFAR-10 Image Classification (ResNet50)
 
-This project implements **image classification on the CIFAR-10 dataset** using a **ResNet50 model** built with TensorFlow/Keras.  
-The goal is to train a deep learning model that can classify images into one of the 10 CIFAR-10 categories.
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://www.tensorflow.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Dataset](https://img.shields.io/badge/Dataset-CIFAR--10-brightgreen.svg)](https://www.cs.toronto.edu/~kriz/cifar.html)
+
+A deep learning project using **Transfer Learning (ResNet50)** to classify images from the **CIFAR-10 dataset** into 10 categories:  
+✈️ airplane • 🚗 automobile • 🐦 bird • 🐱 cat • 🦌 deer • 🐶 dog • 🐸 frog • 🐴 horse • 🚢 ship • 🚛 truck  
 
 ---
 
-## 🚀 Features
-- Preprocessing of CIFAR-10 dataset  
-- ResNet50 model architecture with transfer learning / fine-tuning  
-- Training pipeline with data augmentation  
-- Evaluation of accuracy and loss metrics  
-- Visualization of training progress and predictions  
+## 🧠 Skills Demonstrated
+- Transfer Learning with **ResNet50**
+- **Image preprocessing & augmentation**
+- Model training & evaluation with **TensorFlow/Keras**
+- Visualization of accuracy, loss & predictions
+- Confusion matrix & classification metrics
 
 ---
 
 ## 📂 Project Structure
+
 ├── CIFAR_10_Object_Recognition_using_ResNet50.ipynb # Main Jupyter Notebook
 ├── README.md # Project documentation
 ├── .gitignore # Files to ignore in git
